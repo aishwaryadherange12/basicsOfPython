@@ -1,4 +1,9 @@
 #comparison Operator
+#<,>,<=,>=,==,!=
+from math import fabs
+from tkinter.font import families
+
+
 e = 2
 f = 3
 print(2<3)
@@ -9,6 +14,7 @@ print(2<=3)
 print(2>=3)
 
 #logical operators
+#1.and 2.or 3.not
 # and 
 # True  and  True ------>  True
 # False and  True ------>  False
@@ -19,7 +25,6 @@ print(2 == 2 and 9 > 6)  # True
 print(2 != 2 and 7 > 4)  # False
 print(5 == 5 and 6 < 1)  # False
 print(5 != 5 and 7 < 6)  # False
-
 
 # or 
 # True  or  True ------>  True

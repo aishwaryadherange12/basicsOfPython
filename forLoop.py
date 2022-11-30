@@ -52,4 +52,3 @@ print(marks) #[11,22,33,44,55]
 # len is property
 a1 = len(marks)
 print(a1) #5
-
